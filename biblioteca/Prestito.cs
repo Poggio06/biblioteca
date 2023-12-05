@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace biblioteca
+{
+    internal class Prestito
+    {
+        public string numero { get; set; }
+        public DateTime dal { get; set; }
+        public DateTime al { get; set; }
+    }
+}
